@@ -53,4 +53,8 @@ nav{
     /* color:blue; */
     font-size: 2em;
   }
+  
+  .container{
+    width: 60vw;
+  }
 }
