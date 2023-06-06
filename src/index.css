@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  width: 45vw;
+  height: 80vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.container *{
+  margin: 10px;
+}
+
+h1{
+  font-size: 4em;
+  font-weight: 300;
+  animation: opacity 1s;
+  color: white;
+}
+
+
+
+@keyframes opacity {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+h3{
+  color: greenyellow;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+@media only screen and (max-width:600px){
+  h1{
+    /* color:blue; */
+    font-size: 2em;
+  }
+}
